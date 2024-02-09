@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1f2937;
+  font-family: sans-serif;
+  color: #fff;
+}
+.container {
+  width: 550px;
+  height: 550px;
+  margin: 150px auto;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+}
+h1 span {
+  color: #4adf86;
+  display: block;
+}
+.slogan {
+  font-size: 20px;
+  color: #d5d4d8;
+}
+button {
+  background-color: #10b981;
+  padding: 9px 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  color: inherit;
+  margin-top: 60px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4adf86;
+}
+.genrated-password {
+  display: flex;
+  gap: 24px;
+  border-top: 1px solid #2f3e53;
+  margin-top: 35px;
+  padding-top: 35px;
+}
+.random {
+  font-size: 16px;
+  padding: 10px 16px;
+  color: #55f991;
+  border-radius: 6px;
+  border: none;
+  background-color: #273549;
+}
